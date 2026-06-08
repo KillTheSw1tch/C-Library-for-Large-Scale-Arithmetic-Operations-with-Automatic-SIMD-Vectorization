@@ -1,0 +1,70 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Diploma / academic documents — keep all personal docs off GitHub
+docs/
+template_docs/
+session-*.md
+# Office document formats (anywhere in the tree)
+*.docx
+*.doc
+*.odt
+*.pdf
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+# Word/Office temporary & lock files
+~$*
+~WRL*.tmp
+*.tmp
+
+# Compiled artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# IDE
+.vs/
+.vscode/
+.claude/
+.idea/
+*.user
+*.suo
+
+# Dependencies fetched at configure time
+_deps/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Benchmark artifacts
+benchmarks/results/
+*.csv
+*.png
+# OS
+.DS_Store
+Thumbs.db
